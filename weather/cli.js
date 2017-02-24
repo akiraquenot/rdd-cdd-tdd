@@ -25,6 +25,7 @@ const cli = meow({
 	]
 });
 
+//This function take a temperature in Farenheit in parameter and converts it to a Celsius Temperature
 function _toCelcius(temp) {
 	return Math.round(((temp - 32) * 5) / 9);
 }
